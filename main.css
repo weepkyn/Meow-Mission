@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.849);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header{
+    padding:40px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu ul li{
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+main{
+    margin-top: 80px;
+}
+
+h1, h2{
+    font-size: 96px;
+    text-align: center;
+    color:#E1590F;
+    font-family: 'Licorice', cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 45px;
+}
+
+p{
+    font-size: 30px;
+    align-content: center;
+}
+
+.apresentacao{
+    display: flex;
+    margin-top: -120px;
+}
+
+#paragrafo-1{
+    margin:0 200px;
+}
+
+#imagem-2{
+    
+    height: 387px;
+    border-radius: 45px;
+    margin-left: 40px;
+}
+
+.apresentacao-2{
+    display: flex;
+    margin: 0px 350px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.apresentacao-2 h2{
+    align-content: center;
+    
+}
+
+.apresentacao-2-conteudo{
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
+
+.apresentacao-2-conteudo-topico{
+    display: row;
+}
+
+.apresentacao-2-conteudo-topico h3{
+    font-size: 48px;
+    color: #E1590F;
+    margin-bottom: 10px;
+    font-family: 'Licorice', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao-2-conteudo-topico p{
+    margin-bottom: 150px;
+    margin-right: 40px;
+    justify-content: center;
+}
+
+#ajude{
+    margin: 0 150px;
+}
+
+#ajude p{
+    margin-bottom: 40px;
+}
+
+#ajude h2{
+    margin-bottom: 100px;
+    
+}
+
+#ajude span{
+    font-size: 48px;
+    color: #E1590F;
+    margin-bottom: 10px;
+    font-family: 'Licorice', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#adocao{
+    margin: 0 460px;
+}
+
+#adocao p{
+    text-align: justify;
+}
+#adocao h2{
+    margin-top: 155px;;
+    margin-bottom:  75px;
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    justify-items: center;
+}
+
+.formulario{
+    display:row;
+    margin-left: 39%;
+
+
+}
+
+.formulario img{
+    height: 200px;
+}
+
+button{
+    background-color: #d47441;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: #E1590F;
+}
+
+input:focus, 
+textarea:focus{
+    outline-color: #E1590F;
+}
